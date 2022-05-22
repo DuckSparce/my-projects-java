@@ -19,7 +19,7 @@ class View {
 		if(english) {
 			System.out.println("Mon Tue Wed Thu Fri Sat Sun");
 		}else {
-			System.out.println("Ïí  Âò  Ñğ  ×ò  Ïò  Ñá  Íä");
+			System.out.println("ÃÃ­  Ã‚Ã²  Ã‘Ã°  Ã—Ã²  ÃÃ²  Ã‘Ã¡  ÃÃ¤");
 		}
 		int monthLength = date.lengthOfMonth();
 		LocalDate dateToPrint = LocalDate.parse(date.format(
