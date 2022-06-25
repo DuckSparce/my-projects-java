@@ -1,5 +1,9 @@
 package taskForThreadsFinal;
 
+// It's a simple airport simulator, where I tried to use threads. User adds planes and calls one of two methods from Controller(parallel or notParallel).
+// They both do the same. Planes have some number of families(1-4 members, name from 2 letters("aa")) which would like to visit certain city, but
+// exactly 100 members. Program separates them by buses(6-8 passengersCapacity) in the way that every family has their bus(members are not separated). 
+
 import java.util.*;
 import java.util.function.*;
 import java.util.concurrent.*;
